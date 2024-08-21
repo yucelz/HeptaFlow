@@ -1,6 +1,6 @@
 <!-- markdownlint-disable MD030 -->
 
-<img width="100%" src="https://github.com/yucelz/HeptaFlow/blob/main/images/HeptaStack%20Logo_v2.2.png"></a>
+<img width="50%" height="50%" src="https://github.com/yucelz/HeptaFlow/blob/main/images/HeptaStack%20Logo_v2.2.png"></a>
 
 # Flowise - Build LLM Apps Easily
 
