@@ -3,7 +3,7 @@
 <img width="50%" height="50%" src="https://github.com/yucelz/HeptaFlow/blob/main/images/HeptaStack%20Logo_v2.2.png"></a>
 
 # Flowise - Build LLM Apps Easily
-
+<!--
 [![Release Notes](https://img.shields.io/github/release/FlowiseAI/Flowise)](https://github.com/FlowiseAI/Flowise/releases)
 [![Discord](https://img.shields.io/discord/1087698854775881778?label=Discord&logo=discord)](https://discord.gg/jbaHfsRVBW)
 [![Twitter Follow](https://img.shields.io/twitter/follow/FlowiseAI?style=social)](https://twitter.com/FlowiseAI)
@@ -15,7 +15,7 @@ English | [中文](./i18n/README-ZH.md) | [日本語](./i18n/README-JA.md) | [�
 <h3>Drag & drop UI to build your customized LLM flow</h3>
 <a href="https://github.com/FlowiseAI/Flowise">
 <img width="100%" src="https://github.com/FlowiseAI/Flowise/blob/main/images/flowise.gif?raw=true"></a>
-
+-->
 ## ⚡Quick Start
 
 Download and Install [NodeJS](https://nodejs.org/en/download) >= 18.15.0
