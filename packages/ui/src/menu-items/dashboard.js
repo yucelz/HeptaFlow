@@ -8,11 +8,23 @@ import {
     IconLock,
     IconRobot,
     IconVariable,
-    IconFiles
+    IconFiles,
+    IconCashBanknote
 } from '@tabler/icons-react'
 
 // constant
-const icons = { IconUsersGroup, IconHierarchy, IconBuildingStore, IconKey, IconTool, IconLock, IconRobot, IconVariable, IconFiles }
+const icons = {
+    IconUsersGroup,
+    IconHierarchy,
+    IconBuildingStore,
+    IconKey,
+    IconTool,
+    IconLock,
+    IconRobot,
+    IconVariable,
+    IconFiles,
+    IconCashBanknote
+}
 
 // ==============================|| DASHBOARD MENU ITEMS ||============================== //
 
@@ -21,17 +33,17 @@ const dashboard = {
     title: '',
     type: 'group',
     children: [
-        {
-            id: 'chatflows',
-            title: 'Chatflows',
-            type: 'item',
-            url: '/chatflows',
-            icon: icons.IconHierarchy,
-            breadcrumbs: true
-        },
+        // {
+        //     id: 'chatflows',
+        //     title: 'Chatflows',
+        //     type: 'item',
+        //     url: '/chatflows',
+        //     icon: icons.IconHierarchy,
+        //     breadcrumbs: true
+        // },
         {
             id: 'agentflows',
-            title: 'Agentflows',
+            title: 'Project-Flows',
             type: 'item',
             url: '/agentflows',
             icon: icons.IconUsersGroup,
@@ -46,22 +58,22 @@ const dashboard = {
             icon: icons.IconBuildingStore,
             breadcrumbs: true
         },
-        {
-            id: 'tools',
-            title: 'Tools',
-            type: 'item',
-            url: '/tools',
-            icon: icons.IconTool,
-            breadcrumbs: true
-        },
-        {
-            id: 'assistants',
-            title: 'Assistants',
-            type: 'item',
-            url: '/assistants',
-            icon: icons.IconRobot,
-            breadcrumbs: true
-        },
+        // {
+        //     id: 'tools',
+        //     title: 'Tools',
+        //     type: 'item',
+        //     url: '/tools',
+        //     icon: icons.IconTool,
+        //     breadcrumbs: true
+        // },
+        // {
+        //     id: 'assistants',
+        //     title: 'Assistants',
+        //     type: 'item',
+        //     url: '/assistants',
+        //     icon: icons.IconRobot,
+        //     breadcrumbs: true
+        // },
         {
             id: 'credentials',
             title: 'Credentials',
@@ -88,10 +100,18 @@ const dashboard = {
         },
         {
             id: 'document-stores',
-            title: 'Document Stores',
+            title: 'Database List',
             type: 'item',
             url: '/document-stores',
             icon: icons.IconFiles,
+            breadcrumbs: true
+        },
+        {
+            id: 'subscription',
+            title: 'Subscription',
+            type: 'item',
+            url: '/subscription',
+            icon: icons.IconCashBanknote,
             breadcrumbs: true
         }
     ]
