@@ -13,13 +13,13 @@ class EmptyPage_Tools implements INode {
     baseClasses: string[]
 
     constructor() {
-        this.label = 'Calculator'
-        this.name = 'calculator'
+        this.label = 'Empty Page'
+        this.name = 'EmptyPage'
         this.version = 1.0
-        this.type = 'Calculator'
-        this.icon = 'calculator.svg'
-        this.category = 'Tools'
-        this.description = 'Perform calculations on response'
+        this.type = 'EmptyPage'
+        this.icon = 'emptyPage.svg'
+        this.category = 'Pages'
+        this.description = 'Empty Page'
         this.baseClasses = [this.type, ...getBaseClasses(Calculator)]
     }
 
